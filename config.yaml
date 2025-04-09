@@ -1,0 +1,16 @@
+model_args:
+  model: "gat"
+  hidden_size: 300
+  node_embedding_dim: 300
+  graph_embedding_dim: 64
+  readout_hidden_dim: 300
+  dropout: 0.0
+  n_layers_backbone: 2
+  n_layers_readout: 2
+  graph_classification: True
+  act: "relu"
+
+attack_args:
+  tol_1: 0.0000001
+  tol_2: 0.0000001
+  tol_3: 0.00000001

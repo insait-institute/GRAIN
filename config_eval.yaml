@@ -1,0 +1,11 @@
+model_args:
+  model: "gcn"
+  hidden_size: 300
+  node_embedding_dim: 300
+  graph_embedding_dim: 64
+  readout_hidden_dim: 300
+  dropout: 0.0
+  n_layers_backbone: 5
+  n_layers_readout: 2
+  graph_classification: True
+  act: "relu" 
