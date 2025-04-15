@@ -230,3 +230,5 @@ dependencies:
       - deepchem
       - neptune
       - datasets
+postinstall: |
+  pip install -U torch
